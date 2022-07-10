@@ -1,0 +1,87 @@
+
+/* SETTINGS */
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: #383B73;
+    color: #fff;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* MAIN CSS */
+
+.game-stats {
+    display: flex;
+    justify-content: center;
+    margin-top: 5em;
+    gap: 10em;
+    text-align: center;
+}
+
+.game-stats .name {
+    font-size: 1.8em;
+}
+
+.game-stats .counter{
+    font-size: 1.5em;
+}
+
+.game-info-heading {
+    text-align: center;
+    margin-top: 2.5em;
+    font-size: 3em;
+}
+
+.game-info-heading strong {
+    color: rgb(223, 160, 26);
+}
+
+.game-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 3em;
+}
+
+.game-section .hand-symbols{
+    display: flex;
+    gap: 10em;
+}
+
+.game-section .hand-image img {
+    width: 150px;
+}
+
+.game-section .choose-symbols {
+    display: flex;
+    gap: 2em;
+    margin-top: 3em;
+}
+
+.game-section .choose-symbols .symbol-btn {
+    width: 100px;
+    background-color: #191A33;
+    border: 1px solid #191A33;
+    padding: 1em;
+    cursor: pointer;
+    color: rgb(206, 206, 206);
+    transition: all .2s ease-in-out;
+}
+
+.game-section .choose-symbols .symbol-btn:hover,
+.game-section .choose-symbols .symbol-btn:focus {
+    background-color: #191a339d;
+    border: 1px solid #191a339d;
+}
